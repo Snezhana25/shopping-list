@@ -9,7 +9,7 @@ interface Props {
   products: IProduct[];
 }
 
-export default function ProductList({ products }: Props): JSX.Element {
+export default function ProductList({ products }: Props): React.JSX.Element {
   return (
     <div className="p-4">
       <Swiper

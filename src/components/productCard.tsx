@@ -5,7 +5,7 @@ interface Props {
   product: IProduct;
 }
 
-export default function ProductCard({ product }: Props): JSX.Element {
+export default function ProductCard({ product }: Props): React.JSX.Element {
   const { addToCart } = useCart();
 
   return (

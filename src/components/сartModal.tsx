@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { calculateTotalTenPercentDiscount } from "../utils/discount";
 import { useCart } from "../hook/useCart";
 
-export default function CartModal(): JSX.Element {
+export default function CartModal(): React.JSX.Element {
   const { cartItems, updateQuantity } = useCart();
   const [isOpen, setIsOpen] = useState(false);
 
