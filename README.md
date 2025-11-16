@@ -17,3 +17,6 @@ git clone ...
 npm install
 npm run dev
 ```
+
+## Demo
+https://shopping-list-mubg.vercel.app/
